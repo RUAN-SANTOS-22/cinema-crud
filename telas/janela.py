@@ -5,11 +5,13 @@ from telas import tema
 
 from telas.tela_generos import TelaGeneros
 from telas.tela_cinemas import TelaCinemas
+from telas.tela_salas import TelaSalas
 
 # (título da aba, classe da tela). Cada funcionalidade nova entra aqui.
 TELAS = [
     ("Gêneros", TelaGeneros),
     ("Cinemas", TelaCinemas),
+    ("Salas", TelaSalas),
 ]
 
 
