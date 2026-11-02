@@ -1,11 +1,13 @@
 """Janela principal: título + uma aba para cada tela."""
 import tkinter as tk
 from tkinter import ttk
-
 from telas import tema
+from telas.tela_generos import TelaGeneros
 
 # (título da aba, classe da tela). Cada funcionalidade nova entra aqui.
-TELAS = []
+TELAS = [
+    ("Gêneros", TelaGeneros),
+]
 
 
 class Janela(tk.Tk):
