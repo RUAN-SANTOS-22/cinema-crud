@@ -62,4 +62,5 @@ def excluir(id_filme):
 
 
 def opcoes():
-    return [(f["id"], f["titulo"]) for f in listar()]
+    linhas = db.consultar("SELECT id_filme AS id, titulo FROM filmes ORDER BY titulo")
+    return [(l["id"], l["titulo"]) for l in linhas]

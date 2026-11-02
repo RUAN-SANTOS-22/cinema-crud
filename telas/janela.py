@@ -7,6 +7,7 @@ from telas.tela_generos import TelaGeneros
 from telas.tela_cinemas import TelaCinemas
 from telas.tela_salas import TelaSalas
 from telas.tela_filmes import TelaFilmes
+from telas.tela_sessoes import TelaSessoes
 
 # (título da aba, classe da tela). Cada funcionalidade nova entra aqui.
 TELAS = [
@@ -14,6 +15,7 @@ TELAS = [
     ("Cinemas", TelaCinemas),
     ("Salas", TelaSalas),
     ("Filmes", TelaFilmes),
+    ("Sessões", TelaSessoes),
 ]
 
 
