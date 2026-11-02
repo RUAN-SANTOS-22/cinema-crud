@@ -2,11 +2,14 @@
 import tkinter as tk
 from tkinter import ttk
 from telas import tema
+
 from telas.tela_generos import TelaGeneros
+from telas.tela_cinemas import TelaCinemas
 
 # (título da aba, classe da tela). Cada funcionalidade nova entra aqui.
 TELAS = [
     ("Gêneros", TelaGeneros),
+    ("Cinemas", TelaCinemas),
 ]
 
 
