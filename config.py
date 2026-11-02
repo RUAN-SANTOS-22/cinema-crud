@@ -1,6 +1,9 @@
 """Configurações de acesso ao MySQL."""
 import os
 
+from dotenv import load_dotenv
+load_dotenv(override=True) 
+
 NOME_BANCO = os.getenv("MYSQL_DATABASE", "nomedobancopadrao")
 
 MYSQL = {
